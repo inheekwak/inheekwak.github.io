@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Inhee Kwak"
-  avatar           : "C:\Users\dlsgm\git\inheekwak.github.io\images\profile_img.jpg"
+  avatar           : "images/profile_img.jpg"
   bio              : " Interdisciplinary Studies in Human Development M.S.Ed at University of Pennsylvania (Penn GSE)"
   location         : "Philadelphia, PA"
   employer         :
