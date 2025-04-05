@@ -4,5 +4,8 @@ title: CV
 permalink: cv
 ---
 
-<object data="assets/pdf/InheeKwak_CV.pdf" type="application/pdf" width="100%" height="100%"></object>
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+    <object data="assets/pdf/InheeKwak_CV.pdf" type="application/pdf" width="90%" height="90%"></object>
+</div>
+
 
