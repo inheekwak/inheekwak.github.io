@@ -1,17 +1,17 @@
 # change the followings to match your Github username and repo name
-baseurl: "/tailpages" # the name of your github repo
-url: "https://harrywang.github.io" # the url of your github pages
+baseurl: "/inheekwak.github.io." # the name of your github repo
+url: "https://inheekwak.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
-title: "Tailpages: Tailwind + Github Pages"
-description: A Github Pages (Jekyll) template based on TailwindCSS
+title: "Inhee Kwak"
+description: My name is Inhee Kwak and I am a researcher
 
 # color theme for links
 theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
-author: Satoshi Nakamoto
-author-bio: Creator of Bitcoin  # change to false to hide
+author: Inhee Kwak
+author-bio: Psychology + Computer
 author-image: 279.png  # file must be in the /assets/img/ folder
 
 # navigation menu
@@ -20,24 +20,21 @@ show-nav-menu: true
 nav-menu:
 - text: About
   permalink: about
-- text: Bitcoin
-  permalink: bitcoin
-- text: Blog
-  permalink: blog
+- text: CV
+  permalink: cv
 
 # use false to turn off any social media links
-twitter: https://twitter.com/
-facebook: https://facebook.com/
-instagram: https://instagram.com/
-github: https://github.com/
-linkedin: https://linkedin.com/
+twitter: https://twitter.com/inheekwak
+instagram: https://instagram.com/inheeisinhere
+github: https://github.com/inheekwak
+linkedin: www.linkedin.com/in/inheekwak
 medium: false
 google-scholar: false
-email: false
+email: inheek@upenn.edu
 
 # footer information
-footer-msg: "Powered by Tailpages"
-footer-msg-link: https://github.com/harrywang/tailpages
+# footer-msg: "Powered by Tailpages"
+# footer-msg-link: https://github.com/harrywang/tailpages
 
 # google analytics
 google-analytics: G-WCRC1TC2V5
