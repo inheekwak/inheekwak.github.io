@@ -4,4 +4,4 @@ title: CV
 permalink: cv
 ---
 
-<a href="pdfs/InheeKwak_CV.pdf" class="image fit"></a>
+<a href="assets/pdf/InheeKwak_CV.pdf" class="image fit"></a>
