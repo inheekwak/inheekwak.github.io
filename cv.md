@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bitcoin History
+title: CV
 permalink: bitcoin
 ---
 
