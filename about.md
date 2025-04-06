@@ -13,7 +13,7 @@ M.S.Ed., Interdisciplinary Studies in Human Development, University of Pennsylva
 B.S., Computer Engineering, Handong Global University, 2018—2022.
 
 #### Research Interests
-Deep Learning, Artificial Intelligence, Neuroscience, Psychopathology.
+Artificial Intelligence, Neuroscience, Psychopathology, Heterogeneity, Cognition, Decision-making.
 
 #### Free Time
 I enjoy hiking, practicing yoga, and running. I have a deep appreciation for nature and love capturing its beauty through photography. In my 20s, I backpacked to several places, including India, South America, Myanmar, Thailand, Finland, and more. On my travel wish list are Australia, Africa, and Egypt.
