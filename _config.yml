@@ -1,49 +1,42 @@
 # change the followings to match your Github username and repo name
-baseurl: "/inheekwak.github.io" # the name of your github repo
-url: "https://inheekwak.github.io" # the url of your github pages
+baseurl: "/inheekwak.github.io"   # your GitHub Pages repo name
+url: "https://inheekwak.github.io"  # your GitHub Pages URL
 
 # site information used in page title, meta data etc.
 title: "Inhee Kwak"
-description: My name is Inhee Kwak and I am a researcher
+description: "Researcher in psychology and computational mental health"
 
 # color theme for links
-theme-color: indigo # indigo|yellow|pink|green|stone|
+theme-color: indigo   # options: indigo | yellow | pink | green | stone
 
 # homepage information
-author: Inhee Kwak
-author-bio: Psychology + Computer
-author-image: master_grad_pic.jpeg  # file must be in the /assets/img/ folder
+author: "Inhee Kwak"
+author-bio: "Psychology × Computer Science"
+author-image: "master_grad_pic.jpeg"   # image must be in /assets/img/
 
 # navigation menu
 show-nav-menu: true
 
 nav-menu:
-- text: About
-  permalink: about
-- text: CV
-  permalink: cv
-- text: Publication
-  permalink: publication
+  - text: About
+    permalink: about
+  - text: CV
+    permalink: cv
+  - text: Publication
+    permalink: publication
 
-# use false to turn off any social media links
-twitter: https://twitter.com/inheekwak
-instagram: https://instagram.com/inheeisinhere
-github: https://github.com/inheekwak
-linkedin: https://www.linkedin.com/in/inheekwak
+# social media links (set to false to hide)
+twitter: "https://twitter.com/inheekwak"
+instagram: "https://instagram.com/inheeisinhere"
+github: "https://github.com/inheekwak"
+linkedin: "https://www.linkedin.com/in/inheekwak"
 medium: false
 google-scholar: false
-email: [Send email](mailto:inheek@upenn.edu)
-
-# footer information
-# footer-msg: "Powered by Tailpages"
-# footer-msg-link: https://github.com/harrywang/tailpages
+email: "inhee@applied-computing.org"
 
 # google analytics
-google-analytics: G-WCRC1TC2V5
+google-analytics: "G-WCRC1TC2V5"
 
-# jekyll plugins - no need to change
+# jekyll plugins
 plugins:
-    - jekyll-seo-tag
-
-
-
+  - jekyll-seo-tag
