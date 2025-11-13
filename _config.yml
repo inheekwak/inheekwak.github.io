@@ -1,20 +1,20 @@
-# change the followings to match your Github username and repo name
-baseurl: "/inheekwak.github.io"   # your GitHub Pages repo name
-url: "https://inheekwak.github.io"  # your GitHub Pages URL
+# GitHub Pages configuration
+baseurl: "/inheekwak.github.io"   # empty if using inheekwak.github.io as the repository name
+url: "https://inheekwak.github.io"
 
-# site information used in page title, meta data etc.
+# Site information
 title: "Inhee Kwak"
-description: "Researcher in psychology and computational mental health"
+description: "My name is Inhee Kwak and I am a researcher"
 
-# color theme for links
-theme-color: indigo   # options: indigo | yellow | pink | green | stone
+# Theme
+theme-color: indigo
 
-# homepage information
-author: "Inhee Kwak"
-author-bio: "Psychology × Computer Science"
-author-image: "master_grad_pic.jpeg"   # image must be in /assets/img/
+# Homepage information
+author: Inhee Kwak
+author-bio: "Psychology + Computer"
+author-image: master_grad_pic.jpeg
 
-# navigation menu
+# Navigation menu
 show-nav-menu: true
 
 nav-menu:
@@ -25,18 +25,18 @@ nav-menu:
   - text: Publication
     permalink: publication
 
-# social media links (set to false to hide)
-twitter: "https://twitter.com/inheekwak"
-instagram: "https://instagram.com/inheeisinhere"
-github: "https://github.com/inheekwak"
-linkedin: "https://www.linkedin.com/in/inheekwak"
+# Social media
+twitter: https://twitter.com/inheekwak
+instagram: https://instagram.com/inheeisinhere
+github: https://github.com/inheekwak
+linkedin: https://www.linkedin.com/in/inheekwak
 medium: false
 google-scholar: false
-email: "inhee@applied-computing.org"
+email: inhee@applied-computing.org
 
-# google analytics
-google-analytics: "G-WCRC1TC2V5"
+# Analytics
+google-analytics: G-WCRC1TC2V5
 
-# jekyll plugins
+# Plugins
 plugins:
   - jekyll-seo-tag
