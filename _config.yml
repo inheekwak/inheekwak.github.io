@@ -1,5 +1,5 @@
 # change the followings to match your Github username and repo name
-baseurl: "inheekwak.github.io" # the name of your github repo
+baseurl: "inheekwak/inheekwak.github.io" # the name of your github repo
 url: "https://inheekwak.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
@@ -44,4 +44,5 @@ google-analytics: G-WCRC1TC2V5
 # jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
+
 
