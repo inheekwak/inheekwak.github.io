@@ -116,7 +116,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+# disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -264,8 +264,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Kwak]
+  first_name: [Inhee]
 
   style: apa
   locale: en
