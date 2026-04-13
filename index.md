@@ -14,8 +14,8 @@ My research interests lie at the intersection of **machine learning** and **psyc
 <strong style="color:#003366;">Current Focus: Developing automated code and computational models to replace manual data processing in human neuroscience and psychology.</strong>
 </div>
 
----
+{% comment %}
 {% include_relative _includes/news.md %}
 
 {% include_relative _includes/contact.md %}
----
+{% endcomment %}
