@@ -3,7 +3,7 @@ title: Inhee Kwak
 position: Researcher
 affiliation: TBD
 affiliation_link: TBD
-#affiliation_logo: ./assets/img/human brain icon.png
+#affiliation_logo: /assets/img/human brain icon.png
 email: 1nh33kwak (at) gmail.com
 
 # Search Engine Optimization (SEO)
@@ -22,10 +22,10 @@ linkedin: https://www.linkedin.com/in/inheekwak/
 twitter: https://twitter.com/inheekwak/
 
 # Images 
-avatar: ./assets/img/profile_pic.jpeg
+avatar: /assets/img/your-photo.jpg
 
-favicon: ./assets/img/brain_icon.png
-favicon_dark: ./assets/img/brain_icon.png
+favicon: /assets/img/brain_icon.png
+favicon_dark: /assets/img/brain_icon.png
 
 # Footnotes
 footnote: Feel free to contact me.
