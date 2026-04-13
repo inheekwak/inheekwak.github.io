@@ -1,44 +1,26 @@
-# yaoyao-liu.github.io
+# Personal & Academic Journey | Inhee Kwak
 
-[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/homepage?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/homepage/blob/main/LICENSE)
+## 🚀 About This Project
 
-This is the latest version of [my homepage](https://yaoyaoliu.csl.illinois.edu/)'s source code. Feel free to use and share.
-<br />
-For more details, please refer to this repository: <https://github.com/yaoyao-liu/minimal-light>.
+This repository hosts my personal academic website, designed to showcase the intersection of computer engineering and psychology. It is forked from the multi-tab version of the **Minimal Light** theme to allow for a comprehensive view of my research, publications, and professional activities.
 
-### Using Locally with Jekyll
+## 🧬 The Journey: Engineering meets Human Behavior
 
-You need to install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/) first.
+My academic and professional journey is defined by a transition from technical foundations to human-centric applications:
 
-Install and run:
+* **Computational Foundation:** I hold a bachelor's degree in **AI / Computer Engineering** from the **Handong Global University**, providing a rigorous background in computational modeling and automated systems.
+* **Human Development:** I expanded this perspective with a **Master of Science in Education in Interdisciplinary Studies in Human Development** from the **University of Pennsylvania**, focusing on the complexities of human growth and psychology.
+* **The Intersection:** My current work lives at the crossroads of these fields. I am passionate about utilizing AI and computational models to analyze human emotions, defense mechanisms, and behavior.
 
-```bash
-bundle install
-bundle exec jekyll server
-```
-View the live page using `localhost`:
-<http://localhost:4000>. You can get the html files in the `_site` folder.
+## 🔬 Current Research & Projects
 
-### Using the HTML version
+I am currently focused on projects that bridge the gap between biological insights and technical execution:
 
-The compiled HTML files are available in the [`html_source_file`](https://github.com/yaoyao-liu/homepage/tree/main/html_source_file) folder. If you don't like Jekyll, you may directly edit and use the HTML version.
+* **Human Neuroscience:** Drawing on my experience as a Research Assistant at the **Institute for Human Neuroscience**, investigating the neural correlates of human behavior.
+* **Automation in Research:** Developing automated workflows to replace manual data processing, ensuring efficiency and reproducibility in psychological research.
 
-### Google Scholar Crawler
+## 🤝 Acknowledgements
 
-The instructions for the Google Scholar crawler can be found in [this repository](https://github.com/RayeRen/acad-homepage.github.io).
-<br>
-Before using that, you need to change the Google Scholar ID in the following file:
-https://github.com/yaoyao-liu/homepage/blob/bf1cdb984e6189b855797a88d8a36d194c1e4901/google_scholar_crawler/main.py#L7
-
-
-### Acknowledgements
-
-This project uses the source code from the following repositories:
-
-* [pages-themes/minimal](https://github.com/pages-themes/minimal)
-
-* [orderedlist/minimal](https://github.com/orderedlist/minimal)
-
+Special thanks to the creators and maintainers of the following templates:
+* [yaoyao-liu/minimal-light](https://github.com/yaoyao-liu/minimal-light)
 * [al-folio](https://github.com/alshedivat/al-folio)
-
-* [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io)
