@@ -2,21 +2,19 @@
 layout: homepage
 ---
 
-<h1 id="about-me"></h1>
+<h1 id="about-me">Inhee Kwak</h1>
 
 <h2 style="margin: 80px 0px 10px;"></h2>
 
-I am an Assistant Professor in the [School of Information Sciences](https://ischool.illinois.edu/) and the [Coordinated Science Laboratory](https://csl.illinois.edu/) at the [University of Illinois Urbana-Champaign](https://www.illinois.edu/). I am also affiliated with the [Siebel School of Computing and Data Science](https://cs.illinois.edu/) (formerly the Department of Computer Science) and the [Department of Electrical & Computer Engineering](https://ece.illinois.edu/).
+I am a researcher with a background in **Computer Engineering** and **Psychology**. My work is driven by the intersection of advanced technology and psychology, specifically focusing on how AI and computational models can be used to analyze human emotions and behavior.
 
-Previously, I received my Ph.D. in Computer Science at [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/) and my B.S. in Electronic Information Engineering at [Tianjin University](https://en.tju.edu.cn/). I also spent time at [Johns Hopkins](https://ccvl.jhu.edu/), [Oxford VGG](https://www.robots.ox.ac.uk/~vgg/), and [National University of Singapore](https://www.comp.nus.edu.sg/). 
+Previously, I earned my **Master of Science in Education in Interdisciplinary Studies in Human Development** from the **University of Pennsylvania** and my **Bachelor’s degree in AI / Computer Engineering** from the **Handong Global University**. I also served as a Research Assistant at the **Institute for Human Neuroscience** at Boys Town National Research Hospital, where I focused on bridging technical execution with biological insights.
 
-My research lies at the intersection of **computer vision** and **machine learning**, with a special focus on building intelligent visual systems that are continual and data-efficient. My research interests include **continual learning**, **few-shot learning**, **semi-supervised learning**, **generative models**, **3D geometry models**, and **medical image analysis**.
+My research interests lie at the intersection of **machine learning** and **psychology**. I am particularly interested in **affective computing**, **mental illness**, and **automated data processing** for psychological research. 
 
-
-<div style="border-left: 4px solid #FF5F05; padding: 10px 16px; background-color: #fafafa; color: #333; border-radius: 0 4px 4px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
-<strong style="color:#c0392b;">For prospective students: If you are interested in working with me, please see details <a href="https://vision.ischool.illinois.edu/openings/">here</a>.</strong>
+<div style="border-left: 4px solid #003366; padding: 10px 16px; background-color: #fafafa; color: #333; border-radius: 0 4px 4px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
+<strong style="color:#003366;">Current Focus: Developing automated code and computational models to replace manual data processing in human neuroscience and psychology.</strong>
 </div>
-
 
 {% include_relative _includes/news.md %}
 
