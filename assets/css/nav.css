@@ -200,10 +200,10 @@
 
 	/* Adds space to the right side of the entire navigation block */
 	#myLinks {
-	    padding-right: 30px; 
+	    padding-left: 30px; 
 	}
 	
 	/* Alternatively, target only the very last link to give it some breathing room */
 	#myLinks a:last-child {
-	    margin-right: 20px;
+	    margin-left: 20px;
 	}
