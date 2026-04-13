@@ -1,17 +1,17 @@
 main:
 
-  - title: "Home"
-    url: 
+  - title: "Moments"
+    url: moments/
+
+  - title: "Blog"
+    url: blog/
+
+  - title: "Publications"
+    url: publications/
 
   - title: "Projects"
     url: projects/
-  
-  - title: "Publications"
-    url: publications/
-  
-  - title: "Blog"
-    url: blog/
-  
-  - title: "Moments"
-    url: moments/
+
+  - title: "Home"
+    url: 
 
