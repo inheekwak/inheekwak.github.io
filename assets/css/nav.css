@@ -198,12 +198,19 @@
       }
    }
 
-	/* Adds space to the right side of the entire navigation block */
-	#myLinks {
-	    padding-left: 30px; 
+	/* 1. Add space between the RIGHTMOST tab and the edge of the screen */
+	/* In float:right, the rightmost tab is actually the FIRST link in your code */
+	.topnav a.normal:first-child {
+	    margin-right: 20px !important;
 	}
 	
-	/* Alternatively, target only the very last link to give it some breathing room */
-	#myLinks a:last-child {
-	    margin-left: 20px;
+	/* 2. Add space to the LEFT of the whole group (the gap between Logo and Tabs) */
+	/* In float:right, the leftmost tab is the LAST link in your code */
+	.topnav a.normal:last-child {
+	    margin-left: 20px !important;
+	}
+	
+	/* 3. Remove that padding-left you added to #myLinks (it can interfere with floats) */
+	#myLinks {
+	    padding-left: 0 !important;
 	}
