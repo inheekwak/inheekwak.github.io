@@ -1,40 +1,32 @@
 # Basic Information 
-title: Yaoyao Liu
-position: Assistant Professor
-affiliation: University of Illinois
-affiliation_link: https://www.illinois.edu/
-affiliation_logo: ./assets/img/illinois.svg
-email: lyy (at) illinois.edu
+title: Inhee Kwak
+position: Researcher
+affiliation: TBD
+affiliation_link: TBD
+affiliation_logo: ./assets/img/human brain icon.png
+email: 1nh33kwak (at) gmail.com
 
 # Search Engine Optimization (SEO)
-keywords: yaoyao liu, liu yaoyao, yaoyaoliu, liuyaoyao
-canonical: https://yaoyaoliu.web.illinois.edu
-description: Yaoyao Liu is an assistant professor at the University of Illinois Urbana-Champaign. His research lies in meta-learning, incremental learning, and image generation.
-
-# The option is used to enable the Illinois template.
-enable_hopkins_logo: true
+keywords: inhee kwak, kwak inhee, inheekwak, kwakinhee
+#canonical: https://yaoyaoliu.web.illinois.edu
+description: Inhee Kwak is a researcher focusing on the application of AI within the mental health field. Their research lies in digital phenotyping, multi-modal modeling for mental illness, and affective computing.
 
 # The option is used to show the last update time.
 enable_last_update: false
 
 # Links
 link_type: icon #text/icon
-google_scholar: https://scholar.google.com/citations?user=Qi2PSmEAAAAJ
-github_link: https://github.com/yaoyao-liu/
-linkedin: https://www.linkedin.com/in/liuyaoyao/
-twitter: https://twitter.com/YaoyaoLiu1/
+#google_scholar: https://scholar.google.com/citations?user=Qi2PSmEAAAAJ
+github_link: https://github.com/inheekwak/
+linkedin: https://www.linkedin.com/in/inheekwak/
+twitter: https://twitter.com/inheekwak/
 
 # Images 
-avatar: https://img.yliu.me/yaoyaoliu.jpg
+avatar: ./assets/img/Inhee Kwak_Insta Profile.jpeg
 
 # Footnotes
-footnote: Feel free to use my website's source code.
-footnote_link: https://github.com/yaoyao-liu/minimal-light
-
-# Analytics
-# Please remove the following lines about analytics services if you fork my project. 
-# Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-clustrmaps_id: HV0rAUdAxpfEQLOsVs0FcJTR2rKVI5sEQUZIDM-N_HY
+footnote: Feel free to contact me.
+footnote_link: 1nh33kwak@gmail.com
 
 # The following files will be removed from the generated website.
 exclude:
