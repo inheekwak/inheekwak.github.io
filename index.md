@@ -6,7 +6,7 @@ layout: homepage
 
 I am a researcher with a background in **Computer Engineering** and **Psychology**. My work is driven by the intersection of advanced technology and psychology, specifically focusing on how AI and computational models can be used to analyze human emotions and behavior.
 
-Previously, I earned my **Master of Science in Education in Interdisciplinary Studies in Human Development** from the **University of Pennsylvania** and my **Bachelor’s degree in AI / Computer Engineering** from the **Handong Global University**. I also served as a Research Assistant at the **Institute for Human Neuroscience** at Boys Town National Research Hospital, where I focused on bridging technical execution with biological insights.
+Previously, I earned my **Master of Science in Education in Interdisciplinary Studies in Human Development** from the **University of Pennsylvania** and my **Bachelor of Science in AI / Computer Engineering** from the **Handong Global University**. I also served as a Research Assistant at the **Institute for Human Neuroscience** at Boys Town National Research Hospital, where I focused on bridging technical execution with biological insights.
 
 My research interests lie at the intersection of **machine learning** and **psychology**. I am particularly interested in **affective computing**, **mental illness**, and **automated data processing** for psychological research. 
 
