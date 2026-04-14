@@ -201,7 +201,7 @@
 	/* 1. Add space between the RIGHTMOST tab and the edge of the screen */
 	/* In float:right, the rightmost tab is actually the FIRST link in your code */
 	.topnav a.normal:first-child {
-	    margin-right: 20px !important;
+	    margin-right: 50px !important;
 	}
 	
 	/* 2. Add space to the LEFT of the whole group (the gap between Logo and Tabs) */
