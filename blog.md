@@ -4,4 +4,4 @@ title: Blog
 permalink: /blog/
 ---
 
-{% include_relative _includes/blog.md %}
+{% include _includes/blog.md %}
