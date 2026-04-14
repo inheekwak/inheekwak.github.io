@@ -4,4 +4,4 @@ title: Projects
 permalink: /projects/
 ---
 
-{% include projects.md %}
+{% include _includes/projects.md %}
