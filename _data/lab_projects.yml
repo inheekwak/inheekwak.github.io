@@ -1,36 +1,24 @@
 main:
 
-  - title: "ImageNet3D: Towards General-Purpose Object-Level 3D Understanding"
-    authors: Wufei Ma, Guofeng Zhang, Qihao Liu, Guanning Zeng, Adam Kortylewski, <strong>Yaoyao Liu</strong>, Alan Yuille
-    conference_short: NeurIPS
-    conference: NeurIPS 2024 Datasets and Benchmarks Track.
-    pdf: https://yaoyaoliu.web.illinois.edu/papers/ImageNet3D_Towards_General_Purpose_Object_Level_3D_Understanding.pdf
-    bibtex: https://dblp.org/rec/journals/corr/abs-2406-09613.html?view=bibtex
-    data: https://github.com/wufeim/imagenet3d
-    page: https://imagenet3d.github.io/
-    image: https://img.yliu.me/teaser/imagenet3d.png
-    
-  - title: Generating Images with 3D Annotations Using Diffusion Models
-    authors: Wufei Ma*, Qihao Liu*, Jiahao Wang*, Angtian Wang, Xiaoding Yuan, Yi Zhang, Zihao Xiao, Guofeng Zhang, Beijia Lu, Ruxiao Duan, Yongrui Qi, Adam Kortylewski, <strong>Yaoyao Liu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup></strong>, Alan Yuille <br>( <sup><i class="fa-regular fa-envelope fa-xs"></i></sup> Corresponding author)
-    conference_short: ICLR
-    conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2024.
-    pdf: https://openreview.net/pdf?id=XlkN11Xj6J
-    code: https://github.com/wufeim/DST3D
-    page: https://ccvl.jhu.edu/3D-DST/
-    bibtex: https://dblp.org/rec/conf/iclr/MaLWWY0X0LDQK0Y24.html?view=bibtex
-    image: https://img.yliu.me/teaser/dst.png
-    notes: Spotlight
-
-  - title: Adaptive Aggregation Networks for Class-Incremental Learning
-    authors: <strong>Yaoyao Liu</strong>, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2021.
-    pdf: https://arxiv.org/pdf/2010.05063.pdf
-    code: https://git.io/JYHyt
-    page: https://class-il.mpi-inf.mpg.de/
-    bibtex: https://dblp.org/rec/conf/cvpr/LiuSS21.html?view=bibtex
-    image: https://img.yliu.me/teaser/AANets.png
+  - title: Active View Selection with Perturbed Gaussian Ensemble for Tomographic Reconstruction
+    authors: Yulun Wu, Ruyi Zha, Wei Cao, Yingying Li, Yuanhao Cai, <strong>Yaoyao Liu</strong>
+    conference_short: arXiv
+    conference: arXiv:2603.06852, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2603.06852
+    bibtex: https://bib.yliu.me/active_view.txt
+    code: https://github.com/yulunwu0108/Perturbed-Gaussian-Ensemble
+    image: https://img.yliu.me/teaser/active_view.png
     others: '<a href="https://github.com/yaoyao-liu/class-incremental-learning/tree/main/adaptive-aggregation-networks" target="_blank" rel="noopener"><strong> <i style="color:#e74d3c; font-weight:600" id="githubstars_manets"></i><i style="color:#e74d3c; font-weight:600"> GitHub Stars</i></strong></a><script>githubStars("yaoyao-liu/class-incremental-learning", function(stars) {var startext = document.getElementById("githubstars_manets"); startext.innerHTML=stars;});</script>'
 
-blp.uni-trier.de/rec/conf/cvpr/SunLCS19.html?view=bibtex
-    image: https://img.yliu.me/teaser/MTL_CVPR.png
+  - title: How to Teach Large Multimodal Models New Skills
+    authors: Zhen Zhu, Yiming Gong, Yao Xiao, <strong>Yaoyao Liu</strong>, Derek Hoiem
+    conference_short: arXiv
+    conference: arXiv:2510.08564, 2025.
+    year: 2025
+    pdf: https://arxiv.org/pdf/2510.08564
+    bibtex: https://bib.yliu.me/LMMs.txt
+    code: https://github.com/jessemelpolio/LMM_CL
+    image: https://img.yliu.me/teaser/LMMs.png
+    others: '<br><a href="https://venturebeat.com/ai/researchers-find-that-retraining-only-small-parts-of-ai-models-can-cut-costs" target="_blank" rel="noopener"><strong><i style="color:#e74d3c; font-weight:600">Media Coverage by VentureBeat</i></strong></a>'
+    notes: Spotlight
