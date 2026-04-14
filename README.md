@@ -1,10 +1,8 @@
 # Personal & Academic Journey | Inhee Kwak
 
-## 🚀 About This Project
+This repository hosts my personal academic website, designed to showcase the intersection of computer engineering and psychology. It is forked from the multi-tab version of the **Minimal Light** theme to allow for a comprehensive view of my research, publications, and professional/personal activities.
 
-This repository hosts my personal academic website, designed to showcase the intersection of computer engineering and psychology. It is forked from the multi-tab version of the **Minimal Light** theme to allow for a comprehensive view of my research, publications, and professional activities.
-
-## 🧬 The Journey: Engineering meets Human Behavior
+## 🚀 The Journey: Engineering meets Human Behavior
 
 My academic and professional journey is defined by a transition from technical foundations to human-centric applications:
 
