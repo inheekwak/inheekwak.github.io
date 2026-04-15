@@ -5,6 +5,8 @@ date: 2026-04-15
 permalink: /projects/active-view-selection/
 ---
 
+<div style="margin-bottom: 2rem; border-radius: 10px; padding: 20px 26px; background-color: #f9f9f9;">
+
 ## Project Overview
 
 Active view selection is crucial for efficient 3D reconstruction in tomographic imaging. This project introduces a novel approach using perturbed Gaussian ensembles to optimally select viewpoints for data acquisition.
@@ -27,4 +29,6 @@ arXiv:2603.06852, 2026
 
 ### Results
 
-[Add your results/findings]
+Your results here...
+
+</div>
