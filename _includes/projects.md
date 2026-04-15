@@ -3,7 +3,7 @@
 <h3 class="pub-subsection" style="margin: 30px 0px -30px;">Personal Projects</h3>
 
 
-<div class="projects">
+<div class="publications">
 <ol class="bibliography">
 
 {% for link in site.data.personal_projects.main %}
@@ -57,7 +57,7 @@
 <h3 class="pub-subsection" style="margin: 35px 0px -30px;">Lab Projects</h3>
 
 
-<div class="projects">
+<div class="publications">
 <ol class="bibliography">
 
 {% for link in site.data.lab_projects.main %}
