@@ -6,7 +6,7 @@
 <div class="projects">
 <ol class="bibliography">
 
-{% for link in site.data.presonal_projects.main %}
+{% for link in site.data.personal_projects.main %}
 
 <li>
 <div class="pub-row">
