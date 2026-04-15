@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -64,6 +60,17 @@ layout: default
       }
     </script>
 
+    <style>
+      .wrapper {
+        margin-top: 80px;
+      }
+      @media (max-width: 768px) {
+        .wrapper {
+          margin-top: 100px;
+        }
+      }
+    </style>
+
   </head>
   <body>
     
@@ -123,94 +130,4 @@ layout: default
         
         <br>
         <br>
-
-        {% if site.link_type == 'text' %}
-        [<a href="{{ site.google_scholar }}">Google Scholar</a>]
-        <br>
-        [<a href="{{ site.cv_link }}">Curriculum Vitae</a>]
-        <br>
-        {% endif %}
-
-        {% if site.link_type == 'icon' %}
-        <div class="social-icons">
-        {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
-        {% endif %}
-
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
-        {% endif %}
-
-        {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
-        </a>
-        {% endif %}
-
-        {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
-
-        {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-x-twitter"></i>
-        </a>
-        {% endif %}
-
-        {% if site.bluesky %}
-        <a style="margin: 0 0 0 0" href="{{ site.bluesky }}">
-          <i class="fab fa-bluesky"></i>
-        </a>
-        {% endif %}
-        </div>
-        {% endif %}
-        <br>
-
-      </header>
-      <section>
-
-      {{ content }}
-
-      <br>
-
-      {% if site.enable_last_update %}
-      <small>Last Update:
-            <script>
-              const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
-              ];
-              var modiDate = new Date(document.lastModified);
-              var showAs = modiDate.getDate() + ". " + monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
-              document.write(showAs);
-            </script>
-      </small> 
-      {% endif %}
-
-      <br>
-      
-      </section>
-      <footer>
-        <div style="font: 12px/1.2 Crimson Pro, serif">
-        <p>
-        <small>
-        {% if site.imprint %}
-        <a href="{{ site.imprint }}" rel="noopener"><autocolor>Imprint / Impressum</autocolor></a><br>
-        {% endif %}
-        {% if site.data_protection %}
-        <a href="{{ site.data_protection }}" rel="noopener"><autocolor>Data Protection / Datenschutzhinweis</autocolor></a>
-        {% endif %}
-        </small>
-        </p>
-        </div>
-        <br>
-        <br>
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
-</html>
+
