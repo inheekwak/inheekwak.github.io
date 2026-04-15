@@ -15,7 +15,10 @@
             <abbr class="badge" data-venue="{{ link.conference_short }}">{{ link.conference_short }}</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <!--
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      --->
+      <div class="title"><a href="/projects/{{ link.slug }}/">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
