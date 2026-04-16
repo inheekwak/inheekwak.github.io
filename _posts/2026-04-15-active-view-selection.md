@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "My Amazing Project"
-permalink: /projects/my-first-project/
+permalink: /projects/active-view-selection/
 ---
 
 <div class="post-header">
