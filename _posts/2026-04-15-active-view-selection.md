@@ -1,10 +1,15 @@
 ---
-layout: post
-title: Active View Selection with Perturbed Gaussian Ensemble for Tomographic Reconstruction
-date: 2026-04-15
-permalink: /projects/active-view-selection/
+layout: default
+title: "My Amazing Project"
+permalink: /projects/my-first-project/
 ---
 
-## Project Overview
+<div class="post-header">
+  <h2>{{ page.title }}</h2>
+</div>
+<div class="post-content">
 
-[Your content here]
+## Overview
+Here is the description of my project...
+
+</div>
