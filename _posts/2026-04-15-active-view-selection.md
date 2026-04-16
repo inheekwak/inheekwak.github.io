@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "My Amazing Project"
 permalink: /projects/active-view-selection/
 ---
