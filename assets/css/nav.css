@@ -26,7 +26,7 @@ section h3 {
 
 /* Avoid clipping when a post/page starts with a heading */
 section > :first-child {
-    margin-top: 0.8rem;
+    margin-top: 0.9rem;
 }
 
 
@@ -220,11 +220,11 @@ section > :first-child {
       }
 
       .wrapper {
-        padding-top: 8px;
+        padding-top: 34px;
       }
 
       section {
-        padding-top: 7.5px;
+        padding-top: 10px;
       }
    }
 
