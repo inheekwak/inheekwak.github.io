@@ -12,6 +12,11 @@
     padding-top: 46px;
 }
 
+/* Normalize top spacing of main content across tabs/posts */
+section {
+    padding-top: 0.6em;
+}
+
 /* Prevent heading anchors from being hidden behind fixed nav */
 section h1,
 section h2,
@@ -216,6 +221,10 @@ section > :first-child {
 
       .wrapper {
         padding-top: 52px;
+      }
+
+      section {
+        padding-top: 10px;
       }
    }
 
