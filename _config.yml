@@ -44,3 +44,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+  moments:
+    output: true
+    permalink: /moments/:name/
