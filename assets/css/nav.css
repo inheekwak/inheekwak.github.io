@@ -9,14 +9,14 @@
 
 /* Keep page content below fixed navigation bar */
 .wrapper {
-    padding-top: 78px;
+    padding-top: 68px;
 }
 
 /* Prevent heading anchors from being hidden behind fixed nav */
 section h1,
 section h2,
 section h3 {
-    scroll-margin-top: 90px;
+    scroll-margin-top: 80px;
 }
 
 /* Avoid clipping when a post/page starts with a heading */
@@ -215,7 +215,7 @@ section > :first-child {
       }
 
       .wrapper {
-        padding-top: 78px;
+        padding-top: 68px;
       }
    }
 
