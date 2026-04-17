@@ -9,19 +9,19 @@
 
 /* Keep page content below fixed navigation bar */
 .wrapper {
-    padding-top: 92px;
+    padding-top: 64px;
 }
 
 /* Narrow top spacing only on the home page */
 body.home-page .wrapper {
-    padding-top: 64px;
+    padding-top: 54px;
 }
 
 /* Prevent heading anchors from being hidden behind fixed nav */
 section h1,
 section h2,
 section h3 {
-    scroll-margin-top: 104px;
+    scroll-margin-top: 75px;
 }
 
 /* Avoid clipping when a post/page starts with a heading */
@@ -220,11 +220,11 @@ section > :first-child {
       }
 
       .wrapper {
-        padding-top: 104px;
+        padding-top: 64px;
       }
 
       body.home-page .wrapper {
-        padding-top: 76px;
+        padding-top: 54px;
       }
    }
 
