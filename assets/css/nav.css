@@ -7,6 +7,18 @@
     width:100%;
   }
 
+/* Keep page content below fixed navigation bar */
+.wrapper {
+    padding-top: 64px;
+}
+
+/* Prevent heading anchors from being hidden behind fixed nav */
+section h1,
+section h2,
+section h3 {
+    scroll-margin-top: 76px;
+}
+
 
   .topnav #myLinks {
     display: inline;
@@ -195,6 +207,10 @@
         font-size: 17px;
         display: block;
         margin-right:0;
+      }
+
+      .wrapper {
+        padding-top: 72px;
       }
    }
 
