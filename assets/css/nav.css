@@ -8,8 +8,14 @@
   }
 
 /* Keep page content below fixed navigation bar */
+/* default for all pages */
 .wrapper {
-    padding-top: 63px;
+  padding-top: 63px;
+}
+
+/* narrower top spacing only on Home */
+.home-page .wrapper {
+  padding-top: 53px; /* adjust as you want */
 }
 
 /* Prevent heading anchors from being hidden behind fixed nav */
@@ -214,9 +220,15 @@ section > :first-child {
         margin-right:0;
       }
 
-      .wrapper {
-        padding-top: 63px;
-      }
+	   /* default for all pages */
+		.wrapper {
+		  padding-top: 63px;
+		}
+		
+		/* narrower top spacing only on Home */
+		.home-page .wrapper {
+		  padding-top: 54px; 
+		}
    }
 
 	/* 1. Add space between the RIGHTMOST tab and the edge of the screen */
