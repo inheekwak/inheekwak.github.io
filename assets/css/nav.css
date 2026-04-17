@@ -9,12 +9,7 @@
 
 /* Keep page content below fixed navigation bar */
 .wrapper {
-    padding-top: 92px;
-}
-
-/* Narrow top spacing only on the home page */
-body.home-page .wrapper {
-    padding-top: 32px;
+    padding-top: 46px;
 }
 
 /* Prevent heading anchors from being hidden behind fixed nav */
@@ -220,11 +215,7 @@ section > :first-child {
       }
 
       .wrapper {
-        padding-top: 104px;
-      }
-
-      body.home-page .wrapper {
-        padding-top: 38px;
+        padding-top: 52px;
       }
    }
 
