@@ -6,6 +6,7 @@
 <ol class="bibliography">
 
 {% for link in site.data.personal_projects.main %}
+{% assign project_slug = link.slug | default: link.title | slugify %}
 
 <li>
 <div class="pub-row">
@@ -14,7 +15,7 @@
     {% if link.conference_short %}<abbr class="badge" data-venue="{{ link.conference_short }}">{{ link.conference_short }}</abbr>{% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="/projects/{{ link.slug }}/">{{ link.title }}</a></div>
+    <div class="title"><a href="/projects/{{ project_slug }}/">{{ link.title }}</a></div>
     <div class="author">{{ link.authors }}</div>
     <div class="periodical"><em>{{ link.conference }}</em></div>
     <div class="links">
@@ -55,6 +56,7 @@
 <ol class="bibliography">
 
 {% for link in site.data.lab_projects.main %}
+{% assign project_slug = link.slug | default: link.title | slugify %}
 
 <li>
 <div class="pub-row">
@@ -63,7 +65,7 @@
     {% if link.conference_short %}<abbr class="badge">{{ link.conference_short }}</abbr>{% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="/projects/{{ link.slug }}/">{{ link.title }}</a></div>
+    <div class="title"><a href="/projects/{{ project_slug }}/">{{ link.title }}</a></div>
     <div class="author">{{ link.authors }}</div>
     <div class="periodical"><em>{{ link.conference }}</em></div>
     <div class="links">
