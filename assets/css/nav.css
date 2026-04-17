@@ -9,24 +9,24 @@
 
 /* Keep page content below fixed navigation bar */
 .wrapper {
-    padding-top: 35px;
+    padding-top: 40px;
 }
 
 /* Normalize top spacing of main content across tabs/posts */
 section {
-    padding-top: 0.45em;
+    padding-top: 0.5em;
 }
 
 /* Prevent heading anchors from being hidden behind fixed nav */
 section h1,
 section h2,
 section h3 {
-    scroll-margin-top: 88px;
+    scroll-margin-top: 94px;
 }
 
 /* Avoid clipping when a post/page starts with a heading */
 section > :first-child {
-    margin-top: 0.67rem;
+    margin-top: 0.8rem;
 }
 
 
@@ -220,7 +220,7 @@ section > :first-child {
       }
 
       .wrapper {
-        padding-top: 39px;
+        padding-top: 8px;
       }
 
       section {
