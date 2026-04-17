@@ -9,19 +9,19 @@
 
 /* Keep page content below fixed navigation bar */
 .wrapper {
-    padding-top: 40px;
+    padding-top: 46px;
 }
 
 /* Normalize top spacing of main content across tabs/posts */
 section {
-    padding-top: 0.5em;
+    padding-top: 0.6em;
 }
 
 /* Prevent heading anchors from being hidden behind fixed nav */
 section h1,
 section h2,
 section h3 {
-    scroll-margin-top: 94px;
+    scroll-margin-top: 104px;
 }
 
 /* Avoid clipping when a post/page starts with a heading */
