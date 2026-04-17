@@ -8,21 +8,20 @@
   }
 
 /* Keep page content below fixed navigation bar */
-/* default for all pages */
 .wrapper {
-  padding-top: 63px;
+    padding-top: 92px;
 }
 
-/* narrower top spacing only on Home */
-.home-page .wrapper {
-  padding-top: 53px; /* adjust as you want */
+/* Narrow top spacing only on the home page */
+body.home-page .wrapper {
+    padding-top: 64px;
 }
 
 /* Prevent heading anchors from being hidden behind fixed nav */
 section h1,
 section h2,
 section h3 {
-    scroll-margin-top: 75px;
+    scroll-margin-top: 104px;
 }
 
 /* Avoid clipping when a post/page starts with a heading */
@@ -220,15 +219,13 @@ section > :first-child {
         margin-right:0;
       }
 
-	   /* default for all pages */
-		.wrapper {
-		  padding-top: 63px;
-		}
-		
-		/* narrower top spacing only on Home */
-		.home-page .wrapper {
-		  padding-top: 54px; 
-		}
+      .wrapper {
+        padding-top: 104px;
+      }
+
+      body.home-page .wrapper {
+        padding-top: 76px;
+      }
    }
 
 	/* 1. Add space between the RIGHTMOST tab and the edge of the screen */
