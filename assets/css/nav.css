@@ -16,7 +16,7 @@
 section h1,
 section h2,
 section h3 {
-    scroll-margin-top: 104px;
+    scroll-margin-top: 90px;
 }
 
 /* Avoid clipping when a post/page starts with a heading */
@@ -215,7 +215,7 @@ section > :first-child {
       }
 
       .wrapper {
-        padding-top: 104px;
+        padding-top: 88px;
       }
    }
 
