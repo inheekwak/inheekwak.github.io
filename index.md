@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-<h1 id="about-me" style="margin-top: 25px;">Inhee Kwak</h1>
+<h1 id="about-me" style="margin-top: 75px;">Inhee Kwak</h1>
 
 I am a researcher with a background in **Computer Engineering** and **Psychology**. My work is driven by the intersection of advanced technology and psychology, specifically focusing on how AI and computational models can be used to analyze human emotions and behavior.
 
