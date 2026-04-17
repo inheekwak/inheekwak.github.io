@@ -2,112 +2,117 @@
 layout: default
 title: Moments
 permalink: /moments/
-locations:
-  - title: "Alexandria, Virginia"
-    images:
-      - src: "/assets/img/moment/va-1.jpg"
-        caption: "Quiet walks in Old Town Alexandria."
-      - src: "/assets/img/moment/va-2.jpg"
-        caption: "Nature getaway in Shenandoah."
-      - src: "/assets/img/moment/va-3.jpg"
-        caption: "Sunset on the river."
-  - title: "Omaha, Nebraska"
-    images:
-      - src: "/assets/img/moment/omaha-1.jpg"
-        caption: "Institute for Human Neuroscience."
-  - title: "Seoul, South Korea"
-    images:
-      - src: "/assets/img/moment/seoul-1.jpg"
-        caption: "Hometown memories in Seoul."
 ---
 
 <style>
-:root {
-  --nav-height: 64px; /* adjust to your navbar height */
-  --card-width: 280px;
-  --card-height: 200px;
-  --gap: 20px;
-}
+  .moments-intro {
+    margin-bottom: 14px;
+    color: #555;
+  }
 
-/* container spacing so nav doesn't cover content */
-.moment-container {
-  padding-top: calc(var(--nav-height) + 20px);
-}
+  .map-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto 24px auto;
+  }
 
-/* location heading won't be hidden when linked to */
-.location-title {
-  scroll-margin-top: calc(var(--nav-height) + 12px);
-}
+  .map-image {
+    display: block;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+  }
 
-/* horizontal gallery */
-.gallery-grid {
-  display: flex;
-  gap: var(--gap);
-  overflow-x: auto;
-  padding-bottom: 8px;
-  -webkit-overflow-scrolling: touch;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: thin;
-}
+  .map-marker {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    margin-left: -7px;
+    margin-top: -7px;
+    border-radius: 50%;
+    background: #e74d3c;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+    transition: transform 0.15s ease;
+  }
 
-/* each card is fixed width and won't shrink */
-.gallery-item {
-  flex: 0 0 var(--card-width);
-  width: var(--card-width);
-  height: auto;
-  border-radius: 12px;
-  overflow: hidden;
-  background: #fff;
-  border: 1px solid #eee;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  scroll-snap-align: start;
-}
+  .map-marker:hover {
+    transform: scale(1.15);
+  }
 
-/* hover effect */
-.gallery-item:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-}
+  .map-marker .tooltip {
+    position: absolute;
+    left: 12px;
+    top: -10px;
+    min-width: 180px;
+    max-width: 260px;
+    background: #fff;
+    color: #333;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    padding: 10px 12px;
+    line-height: 1.35;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(3px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    z-index: 10;
+  }
 
-/* image sizing */
-.gallery-item img {
-  width: 100%;
-  height: var(--card-height);
-  object-fit: cover;
-  display: block;
-}
+  .map-marker:hover .tooltip {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
-/* caption */
-.gallery-caption {
-  padding: 12px;
-  font-size: 0.9rem;
-  color: #555;
-  text-align: center;
-}
+  .map-marker .tooltip strong {
+    display: block;
+    margin-bottom: 4px;
+  }
 
-/* hide default scrollbar on WebKit but keep scrolling */
-.gallery-grid::-webkit-scrollbar {
-  height: 8px;
-}
-.gallery-grid::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0.15);
-  border-radius: 999px;
-}
+  .trip-list {
+    margin-top: 12px;
+    padding-left: 18px;
+  }
+
+  .trip-list li {
+    margin-bottom: 7px;
+  }
 </style>
 
-<div class="moment-container">
-  {% for loc in page.locations %}
-    <div class="location-section">
-      <h2 class="location-title">{{ loc.title }}</h2>
-      <div class="gallery-grid" aria-label="Gallery for {{ loc.title }}">
-        {% for img in loc.images %}
-          <figure class="gallery-item">
-            <img src="{{ img.src | relative_url }}" alt="{{ img.caption | escape }}">
-            <figcaption class="gallery-caption">{{ img.caption }}</figcaption>
-          </figure>
-        {% endfor %}
-      </div>
-    </div>
+<p class="moments-intro">
+  Click a marker on the world map to open the trip post for that place.
+</p>
+
+<div class="map-wrap">
+  <img
+    class="map-image"
+    src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg"
+    alt="World map with trip markers"
+  >
+
+  {% for place in site.data.moments.main %}
+    {% assign x = place.lng | plus: 180.0 | times: 100.0 | divided_by: 360.0 %}
+    {% assign y = 90.0 | minus: place.lat | times: 100.0 | divided_by: 180.0 %}
+    <a
+      class="map-marker"
+      href="{{ '/moments/' | append: place.slug | append: '/' | relative_url }}"
+      style="left: {{ x }}%; top: {{ y }}%;"
+      aria-label="Open trip post for {{ place.title }}"
+    >
+      <span class="tooltip">
+        <strong>{{ place.title }}</strong>
+        {{ place.excerpt }}
+      </span>
+    </a>
   {% endfor %}
 </div>
+
+<ul class="trip-list">
+  {% for place in site.data.moments.main %}
+    <li>
+      <a href="{{ '/moments/' | append: place.slug | append: '/' | relative_url }}">{{ place.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
