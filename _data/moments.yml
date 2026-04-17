@@ -1,0 +1,18 @@
+main:
+  - title: "Alexandria, Virginia"
+    slug: alexandria-virginia
+    lat: 38.8048
+    lng: -77.0469
+    excerpt: "Quiet walks in Old Town Alexandria and nearby nature."
+
+  - title: "Omaha, Nebraska"
+    slug: omaha-nebraska
+    lat: 41.2565
+    lng: -95.9345
+    excerpt: "Research memories from the Institute for Human Neuroscience."
+
+  - title: "Seoul, South Korea"
+    slug: seoul-south-korea
+    lat: 37.5665
+    lng: 126.9780
+    excerpt: "Hometown moments across familiar streets and neighborhoods."
